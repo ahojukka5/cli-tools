@@ -14,7 +14,7 @@ alias cli-tools='docker run --rm -it --name cli-tools ahojukka5/cli-tools:latest
 
 After that, try for example `howdoi`:
 
-```bash
+```text
 00:29 $ cli-tools howdoi write hello world in C++
 ```
 
