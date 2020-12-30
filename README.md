@@ -9,13 +9,13 @@ Usage:
 Add this to your `.bashrc`:
 
 ```bash
-alias cli-tools='docker run --rm -it --name cli-tools ahojukka5/cli-tools:latest'
+alias cli='docker run --rm -it --name cli-tools ahojukka5/cli-tools:latest'
 ```
 
 After that, try for example `howdoi`:
 
 ```text
-00:29 $ cli-tools howdoi write hello world in C++
+00:29 $ cli howdoi write hello world in C++
 ```
 
 Response should be:
@@ -33,14 +33,14 @@ int main()
 
 Among that, a lot of different cli tools are included:
 
-- Heroku CLI (`cli-tools heroku --help`)
-- IBM Cloud CLI (`cli-tools ibmcloud --help`)
-- CloudFlare CLI (`cli-tools cfcli --help`)
-- DigitalOcean CLI (`cli-tools doctl --help`)
-- GitHub CLI (`cli-tools gh --help`)
-- Travis-CI CLI (`cli-tools travis --help`)
-- Amazon ElasticBeans CLI (`cli-tools eb --help`)
-- Amazon Amplify CLI (`cli-tools amplify --help`)
+- Heroku CLI (`cli heroku --help`)
+- IBM Cloud CLI (`cli ibmcloud --help`)
+- CloudFlare CLI (`cli cfcli --help`)
+- DigitalOcean CLI (`cli doctl --help`)
+- GitHub CLI (`cli gh --help`)
+- Travis-CI CLI (`cli travis --help`)
+- Amazon ElasticBeans CLI (`cli eb --help`)
+- Amazon Amplify CLI (`cli amplify --help`)
 
 Other things installed
 
